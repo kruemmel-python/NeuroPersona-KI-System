@@ -371,42 +371,42 @@ class CortexCreativus(Node):
     def __init__(self, label):
         super().__init__(label)
 
-    def generate_new_ideas(self, input_data):
+    def generate_new_ideas(self, category_nodes):
         """
-        Generiert neue Ideen basierend auf Eingabedaten.
+        Generiert neue Ideen basierend auf den Aktivierungen der Knoten im Netzwerk.
 
         Args:
-            input_data (list): Liste von Eingabedaten.
+            category_nodes (list): Liste von Knotenobjekten.
 
         Returns:
             list: Liste neuer Ideen.
         """
         new_ideas = []
-        for data in input_data:
-            # Einfache kreative Ideengenerierung (kann komplexer gemacht werden)
-            new_idea = f"New idea based on {data}"
-            new_ideas.append(new_idea)
+        for node in category_nodes:
+            if node.activation > 0.5:  # Beispielschwellenwert für Aktivierung
+                new_idea = f"New idea based on {node.label} with activation {node.activation}"
+                new_ideas.append(new_idea)
         return new_ideas
 
 class SimulatrixNeuralis(Node):
     def __init__(self, label):
         super().__init__(label)
 
-    def simulate_scenarios(self, input_data):
+    def simulate_scenarios(self, category_nodes):
         """
-        Simuliert Szenarien basierend auf Eingabedaten.
+        Simuliert Szenarien basierend auf den Aktivierungen der Knoten im Netzwerk.
 
         Args:
-            input_data (list): Liste von Eingabedaten.
+            category_nodes (list): Liste von Knotenobjekten.
 
         Returns:
             list: Liste simulierter Szenarien.
         """
         scenarios = []
-        for data in input_data:
-            # Einfache Szenariosimulation (kann komplexer gemacht werden)
-            scenario = f"Simulated scenario based on {data}"
-            scenarios.append(scenario)
+        for node in category_nodes:
+            if node.activation > 0.5:  # Beispielschwellenwert für Aktivierung
+                scenario = f"Simulated scenario based on {node.label} with activation {node.activation}"
+                scenarios.append(scenario)
         return scenarios
 
 class CortexCriticus(Node):
@@ -425,8 +425,8 @@ class CortexCriticus(Node):
         """
         evaluated_ideas = []
         for idea in ideas:
-            # Einfache Bewertung (kann komplexer gemacht werden)
-            evaluation = f"Evaluated idea: {idea} - Score: {random.uniform(0, 1)}"
+            evaluation_score = random.uniform(0, 1)  # Beispielbewertung
+            evaluation = f"Evaluated idea: {idea} - Score: {evaluation_score}"
             evaluated_ideas.append(evaluation)
         return evaluated_ideas
 
@@ -447,7 +447,6 @@ class LimbusAffektus(Node):
         """
         weighted_ideas = []
         for idea in ideas:
-            # Einfache emotionale Gewichtung (kann komplexer gemacht werden)
             weighted_idea = f"Emotionally weighted idea: {idea} - Weight: {emotional_state}"
             weighted_ideas.append(weighted_idea)
         return weighted_ideas
@@ -464,28 +463,27 @@ class MetaCognitio(Node):
             category_nodes (list): Liste von Knotenobjekten.
         """
         for node in category_nodes:
-            # Einfache Optimierung (kann komplexer gemacht werden)
-            node.activation *= random.uniform(0.9, 1.1)
+            node.activation *= random.uniform(0.9, 1.1)  # Beispieloptimierung
 
 class CortexSocialis(Node):
     def __init__(self, label):
         super().__init__(label)
 
-    def simulate_social_interactions(self, input_data):
+    def simulate_social_interactions(self, category_nodes):
         """
-        Simuliert soziale Interaktionen basierend auf Eingabedaten.
+        Simuliert soziale Interaktionen basierend auf den Aktivierungen der Knoten im Netzwerk.
 
         Args:
-            input_data (list): Liste von Eingabedaten.
+            category_nodes (list): Liste von Knotenobjekten.
 
         Returns:
             list: Liste simulierter sozialer Interaktionen.
         """
         interactions = []
-        for data in input_data:
-            # Einfache soziale Interaktionssimulation (kann komplexer gemacht werden)
-            interaction = f"Simulated social interaction based on {data}"
-            interactions.append(interaction)
+        for node in category_nodes:
+            if node.activation > 0.5:  # Beispielschwellenwert für Aktivierung
+                interaction = f"Simulated social interaction based on {node.label} with activation {node.activation}"
+                interactions.append(interaction)
         return interactions
 
 def connect_new_brains_to_network(category_nodes, new_brains):
@@ -877,6 +875,56 @@ def plot_new_brains_activation_distribution(new_brains_activation_history):
     plt.grid(True)
     plt.show()
 
+def plot_new_brains_activation_comparison(new_brains_activation_history):
+    """
+    Vergleicht die Aktivierungen der neuen Gehirnmodule in einem einzigen Diagramm.
+
+    Args:
+        new_brains_activation_history (dict): Dictionary mit Aktivierungsverläufen der neuen Gehirnmodule.
+    """
+    plt.figure(figsize=(12, 8))
+    for label, activations in new_brains_activation_history.items():
+        if len(activations) > 0:
+            plt.plot(range(1, len(activations) + 1), activations, label=label)
+
+    plt.title("Vergleich der Aktivierungen der neuen Gehirnmodule")
+    plt.xlabel("Epoche")
+    plt.ylabel("Aktivierung")
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+
+def plot_new_brains_activation_heatmap(new_brains_activation_history):
+    """
+    Erstellt eine Heatmap der Aktivierungen der neuen Gehirnmodule.
+
+    Args:
+        new_brains_activation_history (dict): Dictionary mit Aktivierungsverläufen der neuen Gehirnmodule.
+    """
+    plt.figure(figsize=(12, 8))
+    heatmap_data = np.array([activations for activations in new_brains_activation_history.values() if len(activations) > 0]).T
+    sns.heatmap(heatmap_data, cmap="YlGnBu", xticklabels=new_brains_activation_history.keys(), yticklabels=False)
+    plt.title("Heatmap der Aktivierungen der neuen Gehirnmodule")
+    plt.xlabel("Gehirnmodul")
+    plt.ylabel("Epoche")
+    plt.show()
+
+def plot_new_brains_activation_boxplot(new_brains_activation_history):
+    """
+    Erstellt einen Boxplot der Aktivierungen der neuen Gehirnmodule.
+
+    Args:
+        new_brains_activation_history (dict): Dictionary mit Aktivierungsverläufen der neuen Gehirnmodule.
+    """
+    plt.figure(figsize=(12, 8))
+    data = [activations for activations in new_brains_activation_history.values() if len(activations) > 0]
+    labels = list(new_brains_activation_history.keys())
+    plt.boxplot(data, labels=labels)
+    plt.title("Boxplot der Aktivierungen der neuen Gehirnmodule")
+    plt.xlabel("Gehirnmodul")
+    plt.ylabel("Aktivierung")
+    plt.show()
+
 # --- Visualisierung der Netzwerktopologie ---
 def plot_network_topology(category_nodes, new_brains):
     """
@@ -1025,7 +1073,15 @@ def plot_3d_network(category_nodes):
 
     layout = go.Layout(title="3D Netzwerktopologie", showlegend=False)
     fig = go.Figure(data=edge_trace + [node_trace], layout=layout)
-    fig.show()
+
+    # Speichern statt Blockieren
+    fig.write_html("network_topology.html")
+    print("Das 3D-Diagramm wurde unter 'network_topology.html' gespeichert. Öffnen Sie diese Datei in einem Browser.")
+
+    
+def run_3d_plot(category_nodes):
+    plot_3d_network(category_nodes)
+    
 
 def gpu_accelerated_propagation(input_signal, weights):
     input_tensor = torch.tensor(input_signal, device='cuda')
@@ -1039,7 +1095,86 @@ def compute(input_signal, weights, use_gpu=False):
     else:
         return np.dot(input_signal, weights)
 
-# --- Hauptfunktion ---
+
+
+def plot_new_ideas(new_ideas_history):
+    """
+    Visualisiert die Anzahl der neuen Ideen pro Epoche.
+
+    Args:
+        new_ideas_history (list): Liste der neuen Ideen pro Epoche.
+    """
+    plt.figure(figsize=(10, 6))
+    plt.plot(range(1, len(new_ideas_history) + 1), new_ideas_history, marker='o')
+    plt.title("Anzahl der neuen Ideen pro Epoche")
+    plt.xlabel("Epoche")
+    plt.ylabel("Anzahl der neuen Ideen")
+    plt.grid(True)
+    plt.show()
+
+def plot_scenarios(scenarios_history):
+    """
+    Visualisiert die Anzahl der simulierten Szenarien pro Epoche.
+
+    Args:
+        scenarios_history (list): Liste der simulierten Szenarien pro Epoche.
+    """
+    plt.figure(figsize=(10, 6))
+    plt.plot(range(1, len(scenarios_history) + 1), scenarios_history, marker='o')
+    plt.title("Anzahl der simulierten Szenarien pro Epoche")
+    plt.xlabel("Epoche")
+    plt.ylabel("Anzahl der Szenarien")
+    plt.grid(True)
+    plt.show()
+
+def plot_evaluated_ideas(evaluated_ideas_history):
+    """
+    Visualisiert die Bewertungen der Ideen.
+
+    Args:
+        evaluated_ideas_history (list): Liste der bewerteten Ideen.
+    """
+    scores = [float(idea.split("Score: ")[1]) for idea in evaluated_ideas_history]
+    plt.figure(figsize=(10, 6))
+    plt.hist(scores, bins=10, edgecolor='black')
+    plt.title("Bewertungen der Ideen")
+    plt.xlabel("Bewertung")
+    plt.ylabel("Anzahl der Ideen")
+    plt.grid(True)
+    plt.show()
+
+def plot_emotional_weights(weighted_ideas_history):
+    """
+    Visualisiert die emotionalen Gewichtungen der Ideen.
+
+    Args:
+        weighted_ideas_history (list): Liste der emotional gewichteten Ideen.
+    """
+    weights = [float(idea.split("Weight: ")[1]) for idea in weighted_ideas_history]
+    plt.figure(figsize=(10, 6))
+    plt.hist(weights, bins=10, edgecolor='black')
+    plt.title("Emotionale Gewichtungen der Ideen")
+    plt.xlabel("Gewichtung")
+    plt.ylabel("Anzahl der Ideen")
+    plt.grid(True)
+    plt.show()
+
+def plot_social_interactions(interactions_history):
+    """
+    Visualisiert die Anzahl der sozialen Interaktionen pro Epoche.
+
+    Args:
+        interactions_history (list): Liste der sozialen Interaktionen pro Epoche.
+    """
+    plt.figure(figsize=(10, 6))
+    plt.plot(range(1, len(interactions_history) + 1), interactions_history, marker='o')
+    plt.title("Anzahl der sozialen Interaktionen pro Epoche")
+    plt.xlabel("Epoche")
+    plt.ylabel("Anzahl der Interaktionen")
+    plt.grid(True)
+    plt.show()
+
+
 def main():
     """
     Hauptfunktion, die die Simulation ausführt und die Ergebnisse visualisiert.
@@ -1064,21 +1199,61 @@ def main():
 
     save_model(category_nodes, "model.json")
 
-    new_brains = [CortexCreativus("Cortex Creativus"), SimulatrixNeuralis("Simulatrix Neuralis"), CortexCriticus("Cortex Criticus"), LimbusAffektus("Limbus Affektus"), MetaCognitio("Meta Cognitio"), CortexSocialis("Cortex Socialis")]
-    connect_new_brains_to_network(category_nodes, new_brains)
+    # Erstellen Sie Instanzen der neuen Gehirnmodule
+    cortex_creativus = CortexCreativus("Cortex Creativus")
+    simulatrix_neuralis = SimulatrixNeuralis("Simulatrix Neuralis")
+    cortex_criticus = CortexCriticus("Cortex Criticus")
+    limbus_affektus = LimbusAffektus("Limbus Affektus")
+    meta_cognitio = MetaCognitio("Meta Cognitio")
+    cortex_socialis = CortexSocialis("Cortex Socialis")
+
+    # Verbinden Sie die neuen Gehirnmodule mit den bestehenden Knoten
+    connect_new_brains_to_network(category_nodes, [cortex_creativus, simulatrix_neuralis, cortex_criticus, limbus_affektus, meta_cognitio, cortex_socialis])
+
+    # Speichern der Ergebnisse der neuen Gehirnmodule
+    new_ideas_history = []
+    scenarios_history = []
+    evaluated_ideas_history = []
+    weighted_ideas_history = []
+    interactions_history = []
+
+    for epoch in range(100):
+        new_ideas = cortex_creativus.generate_new_ideas(category_nodes)
+        scenarios = simulatrix_neuralis.simulate_scenarios(category_nodes)
+        evaluated_ideas = cortex_criticus.evaluate_ideas(new_ideas)
+        emotional_state = 0.7  # Beispielwert für emotionalen Zustand
+        weighted_ideas = limbus_affektus.apply_emotional_weight(evaluated_ideas, emotional_state)
+        meta_cognitio.optimize_system(category_nodes)
+        interactions = cortex_socialis.simulate_social_interactions(category_nodes)
+
+        new_ideas_history.append(len(new_ideas))
+        scenarios_history.append(len(scenarios))
+        evaluated_ideas_history.extend(evaluated_ideas)
+        weighted_ideas_history.extend(weighted_ideas)
+        interactions_history.append(len(interactions))
+
+    # Visualisieren Sie die Ergebnisse der neuen Gehirnmodule
+    plot_new_ideas(new_ideas_history)
+    plot_scenarios(scenarios_history)
+    plot_evaluated_ideas(evaluated_ideas_history)
+    plot_emotional_weights(weighted_ideas_history)
+    plot_social_interactions(interactions_history)
 
     # Speichern der Aktivierungsverläufe der neuen Gehirnmodule
-    new_brains_activation_history = {brain.label: [] for brain in new_brains}
+    new_brains_activation_history = {brain.label: [] for brain in [cortex_creativus, simulatrix_neuralis, cortex_criticus, limbus_affektus, meta_cognitio, cortex_socialis]}
     for epoch in range(100):
-        for brain in new_brains:
+        for brain in [cortex_creativus, simulatrix_neuralis, cortex_criticus, limbus_affektus, meta_cognitio, cortex_socialis]:
             input_signal = random.uniform(0.1, 1.0)
             propagate_signal(brain, input_signal, {}, 1.0, {})
             new_brains_activation_history[brain.label].append(brain.activation)
 
     plot_dynamics(activation_history, weights_history)
     plot_activation_heatmap(activation_history)
-    plot_network_topology(category_nodes, new_brains)
+    plot_network_topology(category_nodes, [cortex_creativus, simulatrix_neuralis, cortex_criticus, limbus_affektus, meta_cognitio, cortex_socialis])
     plot_new_brains_activation_distribution(new_brains_activation_history)
+    plot_new_brains_activation_comparison(new_brains_activation_history)
+    plot_new_brains_activation_heatmap(new_brains_activation_history)
+    plot_new_brains_activation_boxplot(new_brains_activation_history)
 
     short_term_memory, mid_term_memory, long_term_memory = simulate_multilevel_memory(data, category_nodes, personality_distributions, epochs=100)
 
@@ -1086,10 +1261,16 @@ def main():
 
     # Erweiterte Visualisierungen
     create_dashboard(activation_history, short_term_memory, mid_term_memory, long_term_memory)
-    plot_3d_network(category_nodes)
+
+    # Starten Sie die 3D-Visualisierung in einem separaten Thread
+    t = threading.Thread(target=run_3d_plot, args=(category_nodes,))
+    t.start()
 
     end_time = time.time()
     print(f"Gesamtausführungszeit: {end_time - start_time:.4f} Sekunden")
+
+
+
 
 def run_simulation_from_gui(learning_rate, decay_rate, reward_interval, epochs):
     """
@@ -1140,6 +1321,10 @@ def run_simulation_from_gui(learning_rate, decay_rate, reward_interval, epochs):
     plot_activation_heatmap(activation_history)
     plot_network_topology(category_nodes, new_brains)
     plot_new_brains_activation_distribution(new_brains_activation_history)
+    plot_new_brains_activation_comparison(new_brains_activation_history)
+    plot_new_brains_activation_heatmap(new_brains_activation_history)
+    plot_new_brains_activation_boxplot(new_brains_activation_history)
+
 
     short_term_memory, mid_term_memory, long_term_memory = simulate_multilevel_memory(data, category_nodes, personality_distributions, epochs=int(epochs))
 
