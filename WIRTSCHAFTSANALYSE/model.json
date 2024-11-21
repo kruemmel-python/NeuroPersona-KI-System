@@ -1,0 +1,5126 @@
+{
+    "nodes": [
+        {
+            "label": "Einkommen",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Kaufkraft",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Wettbewerb",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Nachfrage",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Nachhaltigkeit",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Infrastruktur",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Arbeitsmarkt",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Kosten",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Innovation",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Tourismus",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Lebensqualit\u00e4t",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Steuern",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Technologie",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Demografie",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Energie",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Bildung",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Sicherheit",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Gesundheit",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Dienstleistungen",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Wirtschaft",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Verkehr",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Umwelt",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Freizeit",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Kultur",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Wohnen",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Soziales",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Konsumausgaben",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Wirtschaftslage",
+            "activation": 0.4927848308711904,
+            "activation_history": []
+        },
+        {
+            "label": "Innovationen",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Digitalisierung",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Immobilienmarkt",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Finanzen",
+            "activation": 0.0,
+            "activation_history": []
+        }
+    ],
+    "connections": [
+        {
+            "source": "Einkommen",
+            "target": "Kaufkraft",
+            "weight": 0.8330557423415601
+        },
+        {
+            "source": "Einkommen",
+            "target": "Wettbewerb",
+            "weight": 0.8024323074597357
+        },
+        {
+            "source": "Einkommen",
+            "target": "Nachfrage",
+            "weight": 0.23271750031691335
+        },
+        {
+            "source": "Einkommen",
+            "target": "Nachhaltigkeit",
+            "weight": 0.38146695348807647
+        },
+        {
+            "source": "Einkommen",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Einkommen",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Einkommen",
+            "target": "Kosten",
+            "weight": 0.8141226739897731
+        },
+        {
+            "source": "Einkommen",
+            "target": "Innovation",
+            "weight": 0.6654054933362633
+        },
+        {
+            "source": "Einkommen",
+            "target": "Tourismus",
+            "weight": 0.9406053210324817
+        },
+        {
+            "source": "Einkommen",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Einkommen",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Einkommen",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Einkommen",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Einkommen",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Einkommen",
+            "target": "Bildung",
+            "weight": 0.6576566858975224
+        },
+        {
+            "source": "Einkommen",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Einkommen",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Einkommen",
+            "target": "Dienstleistungen",
+            "weight": 0.8234690558771395
+        },
+        {
+            "source": "Einkommen",
+            "target": "Wirtschaft",
+            "weight": 0.46414746464681705
+        },
+        {
+            "source": "Einkommen",
+            "target": "Verkehr",
+            "weight": 0.48647020871875163
+        },
+        {
+            "source": "Einkommen",
+            "target": "Umwelt",
+            "weight": 0.46156982265576524
+        },
+        {
+            "source": "Einkommen",
+            "target": "Freizeit",
+            "weight": 0.45241136901688883
+        },
+        {
+            "source": "Einkommen",
+            "target": "Kultur",
+            "weight": 0.7549030622861995
+        },
+        {
+            "source": "Einkommen",
+            "target": "Wohnen",
+            "weight": 0.2952872419794098
+        },
+        {
+            "source": "Einkommen",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Einkommen",
+            "target": "Konsumausgaben",
+            "weight": 0.7453422857432814
+        },
+        {
+            "source": "Einkommen",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Einkommen",
+            "target": "Innovationen",
+            "weight": 0.5169800853210318
+        },
+        {
+            "source": "Einkommen",
+            "target": "Digitalisierung",
+            "weight": 0.734491644569671
+        },
+        {
+            "source": "Einkommen",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Einkommen",
+            "target": "Finanzen",
+            "weight": 0.8393693101712831
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Wettbewerb",
+            "weight": 0.8939871906596021
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Nachfrage",
+            "weight": 0.2573125746848177
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Nachhaltigkeit",
+            "weight": 0.24779926212929834
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Kosten",
+            "weight": 0.8748483493301595
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Innovation",
+            "weight": 0.6033709456726174
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Tourismus",
+            "weight": 0.9716432279680098
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Technologie",
+            "weight": 0.9969269117852861
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Bildung",
+            "weight": 0.6337556023951595
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Dienstleistungen",
+            "weight": 0.8325356071449324
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Wirtschaft",
+            "weight": 0.5344348354696693
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Verkehr",
+            "weight": 0.41755951881325926
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Umwelt",
+            "weight": 0.4550280439846365
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Freizeit",
+            "weight": 0.47372127221892607
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Kultur",
+            "weight": 0.6951371560338038
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Wohnen",
+            "weight": 0.30908975579001474
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Konsumausgaben",
+            "weight": 0.703481194960593
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Wirtschaftslage",
+            "weight": 0.9731042904378194
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Innovationen",
+            "weight": 0.4674693888376503
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Digitalisierung",
+            "weight": 0.7417504509377556
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Kaufkraft",
+            "target": "Finanzen",
+            "weight": 0.780867901338369
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Kaufkraft",
+            "weight": 0.8246085547414961
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Nachfrage",
+            "weight": 0.22443148029831309
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Nachhaltigkeit",
+            "weight": 0.2713885127584558
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Kosten",
+            "weight": 0.875828025971648
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Innovation",
+            "weight": 0.6331797735238782
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Tourismus",
+            "weight": 0.8344603103517321
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Bildung",
+            "weight": 0.7546172474938957
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Dienstleistungen",
+            "weight": 0.7853258586664836
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Wirtschaft",
+            "weight": 0.5383391040183363
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Verkehr",
+            "weight": 0.4772557597077041
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Umwelt",
+            "weight": 0.35979988370475297
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Freizeit",
+            "weight": 0.5258205246993101
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Kultur",
+            "weight": 0.6901579783770985
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Wohnen",
+            "weight": 0.4357975748117722
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Konsumausgaben",
+            "weight": 0.7453609258327765
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Innovationen",
+            "weight": 0.4234179798418073
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Digitalisierung",
+            "weight": 0.6166972448330156
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Wettbewerb",
+            "target": "Finanzen",
+            "weight": 0.7294354952009621
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Einkommen",
+            "weight": 0.984674366410582
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Kaufkraft",
+            "weight": 0.8388106570657543
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Wettbewerb",
+            "weight": 0.9032810168286923
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Nachhaltigkeit",
+            "weight": 0.23007404156844163
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Infrastruktur",
+            "weight": 0.989308560771471
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Kosten",
+            "weight": 0.9242037885988548
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Innovation",
+            "weight": 0.6360336864394337
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Tourismus",
+            "weight": 0.924157711464842
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Bildung",
+            "weight": 0.7296869357711203
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Dienstleistungen",
+            "weight": 0.7225561332662858
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Wirtschaft",
+            "weight": 0.5152451622221323
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Verkehr",
+            "weight": 0.46720928011437407
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Umwelt",
+            "weight": 0.3984897909247887
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Freizeit",
+            "weight": 0.40379514784925113
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Kultur",
+            "weight": 0.7023407093134374
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Wohnen",
+            "weight": 0.29946102497082033
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Konsumausgaben",
+            "weight": 0.6162046900709189
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Innovationen",
+            "weight": 0.5325038428902817
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Digitalisierung",
+            "weight": 0.691812376824997
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachfrage",
+            "target": "Finanzen",
+            "weight": 0.794629980422808
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Kaufkraft",
+            "weight": 0.8119542838798836
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Wettbewerb",
+            "weight": 0.91506714977868
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Nachfrage",
+            "weight": 0.34122412721445283
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Kosten",
+            "weight": 0.9689129333674167
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Innovation",
+            "weight": 0.5788933650846745
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Tourismus",
+            "weight": 0.9802353090581066
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Technologie",
+            "weight": 0.994081323352861
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Bildung",
+            "weight": 0.714821873634596
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Dienstleistungen",
+            "weight": 0.6926225770972931
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Wirtschaft",
+            "weight": 0.45783150433618214
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Verkehr",
+            "weight": 0.4970328467328599
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Umwelt",
+            "weight": 0.48897259508058355
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Freizeit",
+            "weight": 0.4883623751207877
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Kultur",
+            "weight": 0.7924900594302119
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Wohnen",
+            "weight": 0.3980220053875242
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Konsumausgaben",
+            "weight": 0.6370232294780054
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Innovationen",
+            "weight": 0.46430122905006227
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Digitalisierung",
+            "weight": 0.6602715417833387
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Finanzen",
+            "weight": 0.7421530512439689
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Kaufkraft",
+            "weight": 0.818742887666157
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Wettbewerb",
+            "weight": 0.8405748700471705
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Nachfrage",
+            "weight": 0.2899026774596579
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Nachhaltigkeit",
+            "weight": 0.21876160477204415
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Kosten",
+            "weight": 0.8156141877700677
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Innovation",
+            "weight": 0.6620979869367066
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Tourismus",
+            "weight": 0.8800071030609224
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Bildung",
+            "weight": 0.6490021931084267
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Dienstleistungen",
+            "weight": 0.7567418553147263
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Wirtschaft",
+            "weight": 0.5298144184968778
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Verkehr",
+            "weight": 0.4640314297929552
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Umwelt",
+            "weight": 0.4772265241593146
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Freizeit",
+            "weight": 0.4383095431376505
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Kultur",
+            "weight": 0.66903993166007
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Wohnen",
+            "weight": 0.4740330169108967
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Soziales",
+            "weight": 0.9665596813789915
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Konsumausgaben",
+            "weight": 0.622268904676882
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Innovationen",
+            "weight": 0.3924504293758464
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Digitalisierung",
+            "weight": 0.7270342136754407
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Infrastruktur",
+            "target": "Finanzen",
+            "weight": 0.7545705548798239
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Kaufkraft",
+            "weight": 0.7223236038074554
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Wettbewerb",
+            "weight": 0.7829265094307221
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Nachfrage",
+            "weight": 0.2609233112541065
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Nachhaltigkeit",
+            "weight": 0.3139270577993974
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Kosten",
+            "weight": 0.9330321513999362
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Innovation",
+            "weight": 0.7216828973695226
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Tourismus",
+            "weight": 0.9341458420824629
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Technologie",
+            "weight": 0.9737058485051773
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Bildung",
+            "weight": 0.5904257379444071
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Dienstleistungen",
+            "weight": 0.7686713346833988
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Wirtschaft",
+            "weight": 0.47213379180807274
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Verkehr",
+            "weight": 0.4492381813143961
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Umwelt",
+            "weight": 0.46833592226704635
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Freizeit",
+            "weight": 0.47230058582899326
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Kultur",
+            "weight": 0.6866207457987457
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Wohnen",
+            "weight": 0.36705932925208656
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Konsumausgaben",
+            "weight": 0.6927276656120934
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Innovationen",
+            "weight": 0.5071898687391967
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Digitalisierung",
+            "weight": 0.7078622475574033
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Arbeitsmarkt",
+            "target": "Finanzen",
+            "weight": 0.8092578971544205
+        },
+        {
+            "source": "Kosten",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Kosten",
+            "target": "Kaufkraft",
+            "weight": 0.8130581249129744
+        },
+        {
+            "source": "Kosten",
+            "target": "Wettbewerb",
+            "weight": 0.8265921188501151
+        },
+        {
+            "source": "Kosten",
+            "target": "Nachfrage",
+            "weight": 0.29525087883219325
+        },
+        {
+            "source": "Kosten",
+            "target": "Nachhaltigkeit",
+            "weight": 0.3218431112877219
+        },
+        {
+            "source": "Kosten",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Kosten",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Kosten",
+            "target": "Innovation",
+            "weight": 0.7311347211541265
+        },
+        {
+            "source": "Kosten",
+            "target": "Tourismus",
+            "weight": 0.9248295745471238
+        },
+        {
+            "source": "Kosten",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Kosten",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Kosten",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Kosten",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Kosten",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Kosten",
+            "target": "Bildung",
+            "weight": 0.7980595660393652
+        },
+        {
+            "source": "Kosten",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Kosten",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Kosten",
+            "target": "Dienstleistungen",
+            "weight": 0.8397440594209457
+        },
+        {
+            "source": "Kosten",
+            "target": "Wirtschaft",
+            "weight": 0.5559509267204019
+        },
+        {
+            "source": "Kosten",
+            "target": "Verkehr",
+            "weight": 0.6051651514948478
+        },
+        {
+            "source": "Kosten",
+            "target": "Umwelt",
+            "weight": 0.3977527591130033
+        },
+        {
+            "source": "Kosten",
+            "target": "Freizeit",
+            "weight": 0.5355021544231202
+        },
+        {
+            "source": "Kosten",
+            "target": "Kultur",
+            "weight": 0.7651679021810824
+        },
+        {
+            "source": "Kosten",
+            "target": "Wohnen",
+            "weight": 0.5340740062292096
+        },
+        {
+            "source": "Kosten",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Kosten",
+            "target": "Konsumausgaben",
+            "weight": 0.83492581801351
+        },
+        {
+            "source": "Kosten",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Kosten",
+            "target": "Innovationen",
+            "weight": 0.5246029653753239
+        },
+        {
+            "source": "Kosten",
+            "target": "Digitalisierung",
+            "weight": 0.7825765437923812
+        },
+        {
+            "source": "Kosten",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Kosten",
+            "target": "Finanzen",
+            "weight": 0.8038605462556223
+        },
+        {
+            "source": "Innovation",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovation",
+            "target": "Kaufkraft",
+            "weight": 0.7681375654137397
+        },
+        {
+            "source": "Innovation",
+            "target": "Wettbewerb",
+            "weight": 0.847638685540979
+        },
+        {
+            "source": "Innovation",
+            "target": "Nachfrage",
+            "weight": 0.3827241559362986
+        },
+        {
+            "source": "Innovation",
+            "target": "Nachhaltigkeit",
+            "weight": 0.29557561241515296
+        },
+        {
+            "source": "Innovation",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovation",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovation",
+            "target": "Kosten",
+            "weight": 0.9166539357274394
+        },
+        {
+            "source": "Innovation",
+            "target": "Tourismus",
+            "weight": 0.9694900418251746
+        },
+        {
+            "source": "Innovation",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovation",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovation",
+            "target": "Technologie",
+            "weight": 0.9793991725569511
+        },
+        {
+            "source": "Innovation",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovation",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovation",
+            "target": "Bildung",
+            "weight": 0.7119015851079177
+        },
+        {
+            "source": "Innovation",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovation",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovation",
+            "target": "Dienstleistungen",
+            "weight": 0.8508531744453868
+        },
+        {
+            "source": "Innovation",
+            "target": "Wirtschaft",
+            "weight": 0.37247850456192705
+        },
+        {
+            "source": "Innovation",
+            "target": "Verkehr",
+            "weight": 0.4766975304026854
+        },
+        {
+            "source": "Innovation",
+            "target": "Umwelt",
+            "weight": 0.42142181311454385
+        },
+        {
+            "source": "Innovation",
+            "target": "Freizeit",
+            "weight": 0.4015389035493142
+        },
+        {
+            "source": "Innovation",
+            "target": "Kultur",
+            "weight": 0.6799666988090487
+        },
+        {
+            "source": "Innovation",
+            "target": "Wohnen",
+            "weight": 0.3324555540896256
+        },
+        {
+            "source": "Innovation",
+            "target": "Soziales",
+            "weight": 0.9807143585035349
+        },
+        {
+            "source": "Innovation",
+            "target": "Konsumausgaben",
+            "weight": 0.627480212514551
+        },
+        {
+            "source": "Innovation",
+            "target": "Wirtschaftslage",
+            "weight": 0.9874356950571553
+        },
+        {
+            "source": "Innovation",
+            "target": "Innovationen",
+            "weight": 0.4397091451642041
+        },
+        {
+            "source": "Innovation",
+            "target": "Digitalisierung",
+            "weight": 0.5888254462297347
+        },
+        {
+            "source": "Innovation",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovation",
+            "target": "Finanzen",
+            "weight": 0.8367311192247159
+        },
+        {
+            "source": "Tourismus",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Tourismus",
+            "target": "Kaufkraft",
+            "weight": 0.8225559752092598
+        },
+        {
+            "source": "Tourismus",
+            "target": "Wettbewerb",
+            "weight": 0.7961149367298748
+        },
+        {
+            "source": "Tourismus",
+            "target": "Nachfrage",
+            "weight": 0.3442387544105751
+        },
+        {
+            "source": "Tourismus",
+            "target": "Nachhaltigkeit",
+            "weight": 0.3157602740881127
+        },
+        {
+            "source": "Tourismus",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Tourismus",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Tourismus",
+            "target": "Kosten",
+            "weight": 0.9865315333596905
+        },
+        {
+            "source": "Tourismus",
+            "target": "Innovation",
+            "weight": 0.583544223341338
+        },
+        {
+            "source": "Tourismus",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Tourismus",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Tourismus",
+            "target": "Technologie",
+            "weight": 0.9814925755317627
+        },
+        {
+            "source": "Tourismus",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Tourismus",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Tourismus",
+            "target": "Bildung",
+            "weight": 0.5957228029990913
+        },
+        {
+            "source": "Tourismus",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Tourismus",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Tourismus",
+            "target": "Dienstleistungen",
+            "weight": 0.7273124922406541
+        },
+        {
+            "source": "Tourismus",
+            "target": "Wirtschaft",
+            "weight": 0.35880619138818626
+        },
+        {
+            "source": "Tourismus",
+            "target": "Verkehr",
+            "weight": 0.5883570258554074
+        },
+        {
+            "source": "Tourismus",
+            "target": "Umwelt",
+            "weight": 0.36727377807618405
+        },
+        {
+            "source": "Tourismus",
+            "target": "Freizeit",
+            "weight": 0.5222846029730954
+        },
+        {
+            "source": "Tourismus",
+            "target": "Kultur",
+            "weight": 0.7854657322973755
+        },
+        {
+            "source": "Tourismus",
+            "target": "Wohnen",
+            "weight": 0.44124010203765507
+        },
+        {
+            "source": "Tourismus",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Tourismus",
+            "target": "Konsumausgaben",
+            "weight": 0.6064534243482869
+        },
+        {
+            "source": "Tourismus",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Tourismus",
+            "target": "Innovationen",
+            "weight": 0.5049304599186277
+        },
+        {
+            "source": "Tourismus",
+            "target": "Digitalisierung",
+            "weight": 0.7317418405624357
+        },
+        {
+            "source": "Tourismus",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Tourismus",
+            "target": "Finanzen",
+            "weight": 0.8506015819771053
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Kaufkraft",
+            "weight": 0.869857810902935
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Wettbewerb",
+            "weight": 0.9096753353601996
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Nachfrage",
+            "weight": 0.25015284057237613
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Nachhaltigkeit",
+            "weight": 0.4078745766683382
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Kosten",
+            "weight": 0.9442004003531964
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Innovation",
+            "weight": 0.7091841078431638
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Tourismus",
+            "weight": 0.94483098538098
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Bildung",
+            "weight": 0.7815502676852013
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Dienstleistungen",
+            "weight": 0.8799558325160524
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Wirtschaft",
+            "weight": 0.5178527256062848
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Verkehr",
+            "weight": 0.5830298842853545
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Umwelt",
+            "weight": 0.5294546519196871
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Freizeit",
+            "weight": 0.4597673434257123
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Kultur",
+            "weight": 0.8446207671757724
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Wohnen",
+            "weight": 0.45411532321660303
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Konsumausgaben",
+            "weight": 0.7990037477541082
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Innovationen",
+            "weight": 0.5632340431804568
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Digitalisierung",
+            "weight": 0.7675515272076112
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Lebensqualit\u00e4t",
+            "target": "Finanzen",
+            "weight": 0.748635858684032
+        },
+        {
+            "source": "Steuern",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Steuern",
+            "target": "Kaufkraft",
+            "weight": 0.9146982520459607
+        },
+        {
+            "source": "Steuern",
+            "target": "Wettbewerb",
+            "weight": 0.8768214783583022
+        },
+        {
+            "source": "Steuern",
+            "target": "Nachfrage",
+            "weight": 0.287095690856432
+        },
+        {
+            "source": "Steuern",
+            "target": "Nachhaltigkeit",
+            "weight": 0.2931776003747204
+        },
+        {
+            "source": "Steuern",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Steuern",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Steuern",
+            "target": "Kosten",
+            "weight": 0.9166995551377435
+        },
+        {
+            "source": "Steuern",
+            "target": "Innovation",
+            "weight": 0.6681435985927712
+        },
+        {
+            "source": "Steuern",
+            "target": "Tourismus",
+            "weight": 0.9895644388303948
+        },
+        {
+            "source": "Steuern",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Steuern",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Steuern",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Steuern",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Steuern",
+            "target": "Bildung",
+            "weight": 0.794348707772523
+        },
+        {
+            "source": "Steuern",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Steuern",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Steuern",
+            "target": "Dienstleistungen",
+            "weight": 0.8495972261980764
+        },
+        {
+            "source": "Steuern",
+            "target": "Wirtschaft",
+            "weight": 0.4086701839940362
+        },
+        {
+            "source": "Steuern",
+            "target": "Verkehr",
+            "weight": 0.5657686803240526
+        },
+        {
+            "source": "Steuern",
+            "target": "Umwelt",
+            "weight": 0.4294839044567343
+        },
+        {
+            "source": "Steuern",
+            "target": "Freizeit",
+            "weight": 0.4804158275327811
+        },
+        {
+            "source": "Steuern",
+            "target": "Kultur",
+            "weight": 0.7138207091031713
+        },
+        {
+            "source": "Steuern",
+            "target": "Wohnen",
+            "weight": 0.395561999294819
+        },
+        {
+            "source": "Steuern",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Steuern",
+            "target": "Konsumausgaben",
+            "weight": 0.7491926879565326
+        },
+        {
+            "source": "Steuern",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Steuern",
+            "target": "Innovationen",
+            "weight": 0.5761505669069469
+        },
+        {
+            "source": "Steuern",
+            "target": "Digitalisierung",
+            "weight": 0.6338594129241724
+        },
+        {
+            "source": "Steuern",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Steuern",
+            "target": "Finanzen",
+            "weight": 0.7979094342340644
+        },
+        {
+            "source": "Technologie",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Technologie",
+            "target": "Kaufkraft",
+            "weight": 0.8592347302622112
+        },
+        {
+            "source": "Technologie",
+            "target": "Wettbewerb",
+            "weight": 0.7881580584496081
+        },
+        {
+            "source": "Technologie",
+            "target": "Nachfrage",
+            "weight": 0.22551953797660257
+        },
+        {
+            "source": "Technologie",
+            "target": "Nachhaltigkeit",
+            "weight": 0.2835628499425894
+        },
+        {
+            "source": "Technologie",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Technologie",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Technologie",
+            "target": "Kosten",
+            "weight": 0.8580896659267341
+        },
+        {
+            "source": "Technologie",
+            "target": "Innovation",
+            "weight": 0.7059592373065745
+        },
+        {
+            "source": "Technologie",
+            "target": "Tourismus",
+            "weight": 0.9427761753798763
+        },
+        {
+            "source": "Technologie",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Technologie",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Technologie",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Technologie",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Technologie",
+            "target": "Bildung",
+            "weight": 0.7453220843921365
+        },
+        {
+            "source": "Technologie",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Technologie",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Technologie",
+            "target": "Dienstleistungen",
+            "weight": 0.7154584142107304
+        },
+        {
+            "source": "Technologie",
+            "target": "Wirtschaft",
+            "weight": 0.46200026644535125
+        },
+        {
+            "source": "Technologie",
+            "target": "Verkehr",
+            "weight": 0.4887912211624113
+        },
+        {
+            "source": "Technologie",
+            "target": "Umwelt",
+            "weight": 0.38141447226669684
+        },
+        {
+            "source": "Technologie",
+            "target": "Freizeit",
+            "weight": 0.5506661604031065
+        },
+        {
+            "source": "Technologie",
+            "target": "Kultur",
+            "weight": 0.7302599278877743
+        },
+        {
+            "source": "Technologie",
+            "target": "Wohnen",
+            "weight": 0.3043898212963609
+        },
+        {
+            "source": "Technologie",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Technologie",
+            "target": "Konsumausgaben",
+            "weight": 0.6938152858307095
+        },
+        {
+            "source": "Technologie",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Technologie",
+            "target": "Innovationen",
+            "weight": 0.45772737272781744
+        },
+        {
+            "source": "Technologie",
+            "target": "Digitalisierung",
+            "weight": 0.7164979850547101
+        },
+        {
+            "source": "Technologie",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Technologie",
+            "target": "Finanzen",
+            "weight": 0.8688103069989198
+        },
+        {
+            "source": "Demografie",
+            "target": "Einkommen",
+            "weight": 0.9880425309066032
+        },
+        {
+            "source": "Demografie",
+            "target": "Kaufkraft",
+            "weight": 0.8029404107046826
+        },
+        {
+            "source": "Demografie",
+            "target": "Wettbewerb",
+            "weight": 0.9332516630021654
+        },
+        {
+            "source": "Demografie",
+            "target": "Nachfrage",
+            "weight": 0.24330117197851078
+        },
+        {
+            "source": "Demografie",
+            "target": "Nachhaltigkeit",
+            "weight": 0.21793051290884538
+        },
+        {
+            "source": "Demografie",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Demografie",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Demografie",
+            "target": "Kosten",
+            "weight": 0.9330491588642178
+        },
+        {
+            "source": "Demografie",
+            "target": "Innovation",
+            "weight": 0.664826970244774
+        },
+        {
+            "source": "Demografie",
+            "target": "Tourismus",
+            "weight": 0.9677986116875303
+        },
+        {
+            "source": "Demografie",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Demografie",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Demografie",
+            "target": "Technologie",
+            "weight": 0.9944033674767798
+        },
+        {
+            "source": "Demografie",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Demografie",
+            "target": "Bildung",
+            "weight": 0.7477081262454285
+        },
+        {
+            "source": "Demografie",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Demografie",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Demografie",
+            "target": "Dienstleistungen",
+            "weight": 0.8374241490704726
+        },
+        {
+            "source": "Demografie",
+            "target": "Wirtschaft",
+            "weight": 0.4942928349409252
+        },
+        {
+            "source": "Demografie",
+            "target": "Verkehr",
+            "weight": 0.5545535323337755
+        },
+        {
+            "source": "Demografie",
+            "target": "Umwelt",
+            "weight": 0.3949960508245397
+        },
+        {
+            "source": "Demografie",
+            "target": "Freizeit",
+            "weight": 0.4802580966361736
+        },
+        {
+            "source": "Demografie",
+            "target": "Kultur",
+            "weight": 0.6554162706238901
+        },
+        {
+            "source": "Demografie",
+            "target": "Wohnen",
+            "weight": 0.3967680237691614
+        },
+        {
+            "source": "Demografie",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Demografie",
+            "target": "Konsumausgaben",
+            "weight": 0.6463114392334014
+        },
+        {
+            "source": "Demografie",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Demografie",
+            "target": "Innovationen",
+            "weight": 0.4935580321216895
+        },
+        {
+            "source": "Demografie",
+            "target": "Digitalisierung",
+            "weight": 0.6870207236954882
+        },
+        {
+            "source": "Demografie",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Demografie",
+            "target": "Finanzen",
+            "weight": 0.8422486194943087
+        },
+        {
+            "source": "Energie",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Energie",
+            "target": "Kaufkraft",
+            "weight": 0.868047173270343
+        },
+        {
+            "source": "Energie",
+            "target": "Wettbewerb",
+            "weight": 0.8098429732145495
+        },
+        {
+            "source": "Energie",
+            "target": "Nachfrage",
+            "weight": 0.31512332016971306
+        },
+        {
+            "source": "Energie",
+            "target": "Nachhaltigkeit",
+            "weight": 0.23910284356501446
+        },
+        {
+            "source": "Energie",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Energie",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Energie",
+            "target": "Kosten",
+            "weight": 0.9226367995393604
+        },
+        {
+            "source": "Energie",
+            "target": "Innovation",
+            "weight": 0.6998654180839368
+        },
+        {
+            "source": "Energie",
+            "target": "Tourismus",
+            "weight": 0.8291375577530593
+        },
+        {
+            "source": "Energie",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Energie",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Energie",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Energie",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Energie",
+            "target": "Bildung",
+            "weight": 0.6906964244342648
+        },
+        {
+            "source": "Energie",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Energie",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Energie",
+            "target": "Dienstleistungen",
+            "weight": 0.7182536866157183
+        },
+        {
+            "source": "Energie",
+            "target": "Wirtschaft",
+            "weight": 0.3798229025589154
+        },
+        {
+            "source": "Energie",
+            "target": "Verkehr",
+            "weight": 0.5460182015137773
+        },
+        {
+            "source": "Energie",
+            "target": "Umwelt",
+            "weight": 0.3526552481847167
+        },
+        {
+            "source": "Energie",
+            "target": "Freizeit",
+            "weight": 0.3977466945389278
+        },
+        {
+            "source": "Energie",
+            "target": "Kultur",
+            "weight": 0.6538616425190241
+        },
+        {
+            "source": "Energie",
+            "target": "Wohnen",
+            "weight": 0.47282282670009745
+        },
+        {
+            "source": "Energie",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Energie",
+            "target": "Konsumausgaben",
+            "weight": 0.6356172817042949
+        },
+        {
+            "source": "Energie",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Energie",
+            "target": "Innovationen",
+            "weight": 0.39295663304832174
+        },
+        {
+            "source": "Energie",
+            "target": "Digitalisierung",
+            "weight": 0.5784744849481428
+        },
+        {
+            "source": "Energie",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Energie",
+            "target": "Finanzen",
+            "weight": 0.8519657378740705
+        },
+        {
+            "source": "Bildung",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Bildung",
+            "target": "Kaufkraft",
+            "weight": 0.7539520050556996
+        },
+        {
+            "source": "Bildung",
+            "target": "Wettbewerb",
+            "weight": 0.8334085685404957
+        },
+        {
+            "source": "Bildung",
+            "target": "Nachfrage",
+            "weight": 0.3761528880745215
+        },
+        {
+            "source": "Bildung",
+            "target": "Nachhaltigkeit",
+            "weight": 0.20042742192316354
+        },
+        {
+            "source": "Bildung",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Bildung",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Bildung",
+            "target": "Kosten",
+            "weight": 0.9491272294845333
+        },
+        {
+            "source": "Bildung",
+            "target": "Innovation",
+            "weight": 0.6443976636957498
+        },
+        {
+            "source": "Bildung",
+            "target": "Tourismus",
+            "weight": 0.8814482626852685
+        },
+        {
+            "source": "Bildung",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Bildung",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Bildung",
+            "target": "Technologie",
+            "weight": 0.9259119245144322
+        },
+        {
+            "source": "Bildung",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Bildung",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Bildung",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Bildung",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Bildung",
+            "target": "Dienstleistungen",
+            "weight": 0.8257904479411265
+        },
+        {
+            "source": "Bildung",
+            "target": "Wirtschaft",
+            "weight": 0.46670194677384347
+        },
+        {
+            "source": "Bildung",
+            "target": "Verkehr",
+            "weight": 0.4898209197495518
+        },
+        {
+            "source": "Bildung",
+            "target": "Umwelt",
+            "weight": 0.3748145074282958
+        },
+        {
+            "source": "Bildung",
+            "target": "Freizeit",
+            "weight": 0.4321494785153586
+        },
+        {
+            "source": "Bildung",
+            "target": "Kultur",
+            "weight": 0.669802816038605
+        },
+        {
+            "source": "Bildung",
+            "target": "Wohnen",
+            "weight": 0.3686225998188812
+        },
+        {
+            "source": "Bildung",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Bildung",
+            "target": "Konsumausgaben",
+            "weight": 0.7463477674524701
+        },
+        {
+            "source": "Bildung",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Bildung",
+            "target": "Innovationen",
+            "weight": 0.44001963089458035
+        },
+        {
+            "source": "Bildung",
+            "target": "Digitalisierung",
+            "weight": 0.6040879621267995
+        },
+        {
+            "source": "Bildung",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Bildung",
+            "target": "Finanzen",
+            "weight": 0.8014737005509324
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Kaufkraft",
+            "weight": 0.9022054374645015
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Wettbewerb",
+            "weight": 0.863640440920014
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Nachfrage",
+            "weight": 0.4258176554533435
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Nachhaltigkeit",
+            "weight": 0.3324727059171052
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Kosten",
+            "weight": 0.9991871471581153
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Innovation",
+            "weight": 0.7196441731261368
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Tourismus",
+            "weight": 0.9399208982529015
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Bildung",
+            "weight": 0.8293185280839324
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Dienstleistungen",
+            "weight": 0.9332959188276551
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Wirtschaft",
+            "weight": 0.5596301670014656
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Verkehr",
+            "weight": 0.5780597206302152
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Umwelt",
+            "weight": 0.5080653091549557
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Freizeit",
+            "weight": 0.6363953105974758
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Kultur",
+            "weight": 0.8211602841090164
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Wohnen",
+            "weight": 0.47523075547705323
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Konsumausgaben",
+            "weight": 0.8345807151979501
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Innovationen",
+            "weight": 0.5838319164717864
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Digitalisierung",
+            "weight": 0.7736999577112612
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Sicherheit",
+            "target": "Finanzen",
+            "weight": 0.8826188714634671
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Kaufkraft",
+            "weight": 0.919937063124491
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Wettbewerb",
+            "weight": 0.8428656357057746
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Nachfrage",
+            "weight": 0.3855992692675118
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Nachhaltigkeit",
+            "weight": 0.38845938975099203
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Kosten",
+            "weight": 0.9900275857562781
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Innovation",
+            "weight": 0.6657671474331409
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Tourismus",
+            "weight": 0.9879279339750002
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Bildung",
+            "weight": 0.7527585733483867
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Dienstleistungen",
+            "weight": 0.8120798698257893
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Wirtschaft",
+            "weight": 0.5089618415885653
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Verkehr",
+            "weight": 0.6204993793746716
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Umwelt",
+            "weight": 0.531612142400272
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Freizeit",
+            "weight": 0.6131487142460437
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Kultur",
+            "weight": 0.7456893177070689
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Wohnen",
+            "weight": 0.4401580412395162
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Konsumausgaben",
+            "weight": 0.6879117749890374
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Innovationen",
+            "weight": 0.4685167421902157
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Digitalisierung",
+            "weight": 0.7553669497885311
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Gesundheit",
+            "target": "Finanzen",
+            "weight": 0.8409516491487034
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Kaufkraft",
+            "weight": 0.7525084437596465
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Wettbewerb",
+            "weight": 0.8684205749690649
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Nachfrage",
+            "weight": 0.2566009795435058
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Nachhaltigkeit",
+            "weight": 0.2116690787909649
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Kosten",
+            "weight": 0.9555592976588043
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Innovation",
+            "weight": 0.6181741942189838
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Tourismus",
+            "weight": 0.8679597889933844
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Bildung",
+            "weight": 0.7620378651421058
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Wirtschaft",
+            "weight": 0.405244898782212
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Verkehr",
+            "weight": 0.5456266984602108
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Umwelt",
+            "weight": 0.46080768102451547
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Freizeit",
+            "weight": 0.3983326305909185
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Kultur",
+            "weight": 0.768485091721625
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Wohnen",
+            "weight": 0.4279080089625989
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Konsumausgaben",
+            "weight": 0.6163503149801377
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Innovationen",
+            "weight": 0.4652564718275415
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Digitalisierung",
+            "weight": 0.7431374680987147
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Dienstleistungen",
+            "target": "Finanzen",
+            "weight": 0.7695616712740027
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Kaufkraft",
+            "weight": 0.932689501145511
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Wettbewerb",
+            "weight": 0.9849860562716543
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Nachfrage",
+            "weight": 0.3691099580342778
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Nachhaltigkeit",
+            "weight": 0.45834974622255414
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Kosten",
+            "weight": 0.9075892125968114
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Innovation",
+            "weight": 0.7765510003067663
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Tourismus",
+            "weight": 0.9971985704038187
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Bildung",
+            "weight": 0.7507637955480454
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Dienstleistungen",
+            "weight": 0.8112670249675392
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Verkehr",
+            "weight": 0.598143945302915
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Umwelt",
+            "weight": 0.457140395856121
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Freizeit",
+            "weight": 0.48335019939097923
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Kultur",
+            "weight": 0.7552463444317423
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Wohnen",
+            "weight": 0.40670875697061964
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Konsumausgaben",
+            "weight": 0.6746975299235033
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Innovationen",
+            "weight": 0.543637049502369
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Digitalisierung",
+            "weight": 0.70165278054066
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaft",
+            "target": "Finanzen",
+            "weight": 0.9428534023151616
+        },
+        {
+            "source": "Verkehr",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Verkehr",
+            "target": "Kaufkraft",
+            "weight": 0.8146558117907265
+        },
+        {
+            "source": "Verkehr",
+            "target": "Wettbewerb",
+            "weight": 0.7982250552938038
+        },
+        {
+            "source": "Verkehr",
+            "target": "Nachfrage",
+            "weight": 0.23650014228175711
+        },
+        {
+            "source": "Verkehr",
+            "target": "Nachhaltigkeit",
+            "weight": 0.32698060990549865
+        },
+        {
+            "source": "Verkehr",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Verkehr",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Verkehr",
+            "target": "Kosten",
+            "weight": 0.8581145942889468
+        },
+        {
+            "source": "Verkehr",
+            "target": "Innovation",
+            "weight": 0.5579753677449616
+        },
+        {
+            "source": "Verkehr",
+            "target": "Tourismus",
+            "weight": 0.9470582675293217
+        },
+        {
+            "source": "Verkehr",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Verkehr",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Verkehr",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Verkehr",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Verkehr",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Verkehr",
+            "target": "Bildung",
+            "weight": 0.6503764377992195
+        },
+        {
+            "source": "Verkehr",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Verkehr",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Verkehr",
+            "target": "Dienstleistungen",
+            "weight": 0.862802045787138
+        },
+        {
+            "source": "Verkehr",
+            "target": "Wirtschaft",
+            "weight": 0.37507658910165104
+        },
+        {
+            "source": "Verkehr",
+            "target": "Umwelt",
+            "weight": 0.4763840762582613
+        },
+        {
+            "source": "Verkehr",
+            "target": "Freizeit",
+            "weight": 0.47980363136623067
+        },
+        {
+            "source": "Verkehr",
+            "target": "Kultur",
+            "weight": 0.7228759197982438
+        },
+        {
+            "source": "Verkehr",
+            "target": "Wohnen",
+            "weight": 0.44925323552937607
+        },
+        {
+            "source": "Verkehr",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Verkehr",
+            "target": "Konsumausgaben",
+            "weight": 0.6060849267823528
+        },
+        {
+            "source": "Verkehr",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Verkehr",
+            "target": "Innovationen",
+            "weight": 0.5556031585837491
+        },
+        {
+            "source": "Verkehr",
+            "target": "Digitalisierung",
+            "weight": 0.7059262092213129
+        },
+        {
+            "source": "Verkehr",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Verkehr",
+            "target": "Finanzen",
+            "weight": 0.8220065537670038
+        },
+        {
+            "source": "Umwelt",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Umwelt",
+            "target": "Kaufkraft",
+            "weight": 0.8385026578585203
+        },
+        {
+            "source": "Umwelt",
+            "target": "Wettbewerb",
+            "weight": 0.8422948996561995
+        },
+        {
+            "source": "Umwelt",
+            "target": "Nachfrage",
+            "weight": 0.24200004210858883
+        },
+        {
+            "source": "Umwelt",
+            "target": "Nachhaltigkeit",
+            "weight": 0.2820627083087512
+        },
+        {
+            "source": "Umwelt",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Umwelt",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Umwelt",
+            "target": "Kosten",
+            "weight": 0.9038110744342192
+        },
+        {
+            "source": "Umwelt",
+            "target": "Innovation",
+            "weight": 0.5667520736111297
+        },
+        {
+            "source": "Umwelt",
+            "target": "Tourismus",
+            "weight": 0.8913595986083149
+        },
+        {
+            "source": "Umwelt",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Umwelt",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Umwelt",
+            "target": "Technologie",
+            "weight": 0.9747900641092301
+        },
+        {
+            "source": "Umwelt",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Umwelt",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Umwelt",
+            "target": "Bildung",
+            "weight": 0.7393834458973265
+        },
+        {
+            "source": "Umwelt",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Umwelt",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Umwelt",
+            "target": "Dienstleistungen",
+            "weight": 0.7510053706354157
+        },
+        {
+            "source": "Umwelt",
+            "target": "Wirtschaft",
+            "weight": 0.3906825837733223
+        },
+        {
+            "source": "Umwelt",
+            "target": "Verkehr",
+            "weight": 0.5173241058727518
+        },
+        {
+            "source": "Umwelt",
+            "target": "Freizeit",
+            "weight": 0.5280578000915697
+        },
+        {
+            "source": "Umwelt",
+            "target": "Kultur",
+            "weight": 0.8303323567284746
+        },
+        {
+            "source": "Umwelt",
+            "target": "Wohnen",
+            "weight": 0.4386251737965857
+        },
+        {
+            "source": "Umwelt",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Umwelt",
+            "target": "Konsumausgaben",
+            "weight": 0.7519574682093415
+        },
+        {
+            "source": "Umwelt",
+            "target": "Wirtschaftslage",
+            "weight": 0.9663971499458344
+        },
+        {
+            "source": "Umwelt",
+            "target": "Innovationen",
+            "weight": 0.4678846515558993
+        },
+        {
+            "source": "Umwelt",
+            "target": "Digitalisierung",
+            "weight": 0.6109453677986186
+        },
+        {
+            "source": "Umwelt",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Umwelt",
+            "target": "Finanzen",
+            "weight": 0.8317073114246724
+        },
+        {
+            "source": "Freizeit",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Freizeit",
+            "target": "Kaufkraft",
+            "weight": 0.9137531934581063
+        },
+        {
+            "source": "Freizeit",
+            "target": "Wettbewerb",
+            "weight": 0.9240207979528257
+        },
+        {
+            "source": "Freizeit",
+            "target": "Nachfrage",
+            "weight": 0.3345170215335953
+        },
+        {
+            "source": "Freizeit",
+            "target": "Nachhaltigkeit",
+            "weight": 0.46585287164793016
+        },
+        {
+            "source": "Freizeit",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Freizeit",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Freizeit",
+            "target": "Kosten",
+            "weight": 0.9930525495552066
+        },
+        {
+            "source": "Freizeit",
+            "target": "Innovation",
+            "weight": 0.7036238275449932
+        },
+        {
+            "source": "Freizeit",
+            "target": "Tourismus",
+            "weight": 0.9915897917570201
+        },
+        {
+            "source": "Freizeit",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Freizeit",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Freizeit",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Freizeit",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Freizeit",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Freizeit",
+            "target": "Bildung",
+            "weight": 0.8597800872619651
+        },
+        {
+            "source": "Freizeit",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Freizeit",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Freizeit",
+            "target": "Dienstleistungen",
+            "weight": 0.9135379625329438
+        },
+        {
+            "source": "Freizeit",
+            "target": "Wirtschaft",
+            "weight": 0.5707047870517052
+        },
+        {
+            "source": "Freizeit",
+            "target": "Verkehr",
+            "weight": 0.6638806340593592
+        },
+        {
+            "source": "Freizeit",
+            "target": "Umwelt",
+            "weight": 0.45008646492081517
+        },
+        {
+            "source": "Freizeit",
+            "target": "Kultur",
+            "weight": 0.8194468302892381
+        },
+        {
+            "source": "Freizeit",
+            "target": "Wohnen",
+            "weight": 0.4282809458535423
+        },
+        {
+            "source": "Freizeit",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Freizeit",
+            "target": "Konsumausgaben",
+            "weight": 0.7524305124900554
+        },
+        {
+            "source": "Freizeit",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Freizeit",
+            "target": "Innovationen",
+            "weight": 0.549564716558854
+        },
+        {
+            "source": "Freizeit",
+            "target": "Digitalisierung",
+            "weight": 0.8554446574047124
+        },
+        {
+            "source": "Freizeit",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Freizeit",
+            "target": "Finanzen",
+            "weight": 0.9364849585010601
+        },
+        {
+            "source": "Kultur",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Kultur",
+            "target": "Kaufkraft",
+            "weight": 0.8621607727183659
+        },
+        {
+            "source": "Kultur",
+            "target": "Wettbewerb",
+            "weight": 0.8576814696564746
+        },
+        {
+            "source": "Kultur",
+            "target": "Nachfrage",
+            "weight": 0.2912212420040114
+        },
+        {
+            "source": "Kultur",
+            "target": "Nachhaltigkeit",
+            "weight": 0.4289134102424669
+        },
+        {
+            "source": "Kultur",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Kultur",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Kultur",
+            "target": "Kosten",
+            "weight": 0.9578976900494944
+        },
+        {
+            "source": "Kultur",
+            "target": "Innovation",
+            "weight": 0.7447341374993036
+        },
+        {
+            "source": "Kultur",
+            "target": "Tourismus",
+            "weight": 0.9927763574450341
+        },
+        {
+            "source": "Kultur",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Kultur",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Kultur",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Kultur",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Kultur",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Kultur",
+            "target": "Bildung",
+            "weight": 0.7438150910482495
+        },
+        {
+            "source": "Kultur",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Kultur",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Kultur",
+            "target": "Dienstleistungen",
+            "weight": 0.8550601148199319
+        },
+        {
+            "source": "Kultur",
+            "target": "Wirtschaft",
+            "weight": 0.5704084048787732
+        },
+        {
+            "source": "Kultur",
+            "target": "Verkehr",
+            "weight": 0.5248349605841923
+        },
+        {
+            "source": "Kultur",
+            "target": "Umwelt",
+            "weight": 0.548184843423856
+        },
+        {
+            "source": "Kultur",
+            "target": "Freizeit",
+            "weight": 0.4962231869687373
+        },
+        {
+            "source": "Kultur",
+            "target": "Wohnen",
+            "weight": 0.4642267486755903
+        },
+        {
+            "source": "Kultur",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Kultur",
+            "target": "Konsumausgaben",
+            "weight": 0.7925347331090036
+        },
+        {
+            "source": "Kultur",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Kultur",
+            "target": "Innovationen",
+            "weight": 0.569110997094475
+        },
+        {
+            "source": "Kultur",
+            "target": "Digitalisierung",
+            "weight": 0.7962742872985022
+        },
+        {
+            "source": "Kultur",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Kultur",
+            "target": "Finanzen",
+            "weight": 0.9140516146746318
+        },
+        {
+            "source": "Wohnen",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Wohnen",
+            "target": "Kaufkraft",
+            "weight": 0.7810556966412943
+        },
+        {
+            "source": "Wohnen",
+            "target": "Wettbewerb",
+            "weight": 0.8516118706124932
+        },
+        {
+            "source": "Wohnen",
+            "target": "Nachfrage",
+            "weight": 0.2331371950967373
+        },
+        {
+            "source": "Wohnen",
+            "target": "Nachhaltigkeit",
+            "weight": 0.23153252542303737
+        },
+        {
+            "source": "Wohnen",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Wohnen",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Wohnen",
+            "target": "Kosten",
+            "weight": 0.9044331582976023
+        },
+        {
+            "source": "Wohnen",
+            "target": "Innovation",
+            "weight": 0.7085977847584916
+        },
+        {
+            "source": "Wohnen",
+            "target": "Tourismus",
+            "weight": 0.8513123535483665
+        },
+        {
+            "source": "Wohnen",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Wohnen",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Wohnen",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Wohnen",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Wohnen",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Wohnen",
+            "target": "Bildung",
+            "weight": 0.6598728553675094
+        },
+        {
+            "source": "Wohnen",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Wohnen",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Wohnen",
+            "target": "Dienstleistungen",
+            "weight": 0.8298049783867039
+        },
+        {
+            "source": "Wohnen",
+            "target": "Wirtschaft",
+            "weight": 0.5302644391979952
+        },
+        {
+            "source": "Wohnen",
+            "target": "Verkehr",
+            "weight": 0.5933219306694023
+        },
+        {
+            "source": "Wohnen",
+            "target": "Umwelt",
+            "weight": 0.44002830039640406
+        },
+        {
+            "source": "Wohnen",
+            "target": "Freizeit",
+            "weight": 0.45619508978638806
+        },
+        {
+            "source": "Wohnen",
+            "target": "Kultur",
+            "weight": 0.785074942583462
+        },
+        {
+            "source": "Wohnen",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Wohnen",
+            "target": "Konsumausgaben",
+            "weight": 0.7510468196844106
+        },
+        {
+            "source": "Wohnen",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Wohnen",
+            "target": "Innovationen",
+            "weight": 0.5021247836320102
+        },
+        {
+            "source": "Wohnen",
+            "target": "Digitalisierung",
+            "weight": 0.7675645410550748
+        },
+        {
+            "source": "Wohnen",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Wohnen",
+            "target": "Finanzen",
+            "weight": 0.7652944083818639
+        },
+        {
+            "source": "Soziales",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Soziales",
+            "target": "Kaufkraft",
+            "weight": 0.8759407465701906
+        },
+        {
+            "source": "Soziales",
+            "target": "Wettbewerb",
+            "weight": 0.7571856151137311
+        },
+        {
+            "source": "Soziales",
+            "target": "Nachfrage",
+            "weight": 0.2847237815390695
+        },
+        {
+            "source": "Soziales",
+            "target": "Nachhaltigkeit",
+            "weight": 0.31401946200984576
+        },
+        {
+            "source": "Soziales",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Soziales",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Soziales",
+            "target": "Kosten",
+            "weight": 0.927869882726192
+        },
+        {
+            "source": "Soziales",
+            "target": "Innovation",
+            "weight": 0.6650300874542295
+        },
+        {
+            "source": "Soziales",
+            "target": "Tourismus",
+            "weight": 0.8344837837116715
+        },
+        {
+            "source": "Soziales",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Soziales",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Soziales",
+            "target": "Technologie",
+            "weight": 0.9859002878264453
+        },
+        {
+            "source": "Soziales",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Soziales",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Soziales",
+            "target": "Bildung",
+            "weight": 0.7245164165299038
+        },
+        {
+            "source": "Soziales",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Soziales",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Soziales",
+            "target": "Dienstleistungen",
+            "weight": 0.7555405696264068
+        },
+        {
+            "source": "Soziales",
+            "target": "Wirtschaft",
+            "weight": 0.5376275668696893
+        },
+        {
+            "source": "Soziales",
+            "target": "Verkehr",
+            "weight": 0.5200941700899647
+        },
+        {
+            "source": "Soziales",
+            "target": "Umwelt",
+            "weight": 0.4245397197598857
+        },
+        {
+            "source": "Soziales",
+            "target": "Freizeit",
+            "weight": 0.5680556543870299
+        },
+        {
+            "source": "Soziales",
+            "target": "Kultur",
+            "weight": 0.7037943149320727
+        },
+        {
+            "source": "Soziales",
+            "target": "Wohnen",
+            "weight": 0.4575951935971963
+        },
+        {
+            "source": "Soziales",
+            "target": "Konsumausgaben",
+            "weight": 0.6048396295617613
+        },
+        {
+            "source": "Soziales",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Soziales",
+            "target": "Innovationen",
+            "weight": 0.4652381476114836
+        },
+        {
+            "source": "Soziales",
+            "target": "Digitalisierung",
+            "weight": 0.6534394611750507
+        },
+        {
+            "source": "Soziales",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Soziales",
+            "target": "Finanzen",
+            "weight": 0.8065350497455945
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Einkommen",
+            "weight": 0.9823304300584993
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Kaufkraft",
+            "weight": 0.8260227347677066
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Wettbewerb",
+            "weight": 0.8012731748721008
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Nachfrage",
+            "weight": 0.35222652044910585
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Nachhaltigkeit",
+            "weight": 0.3303532745156152
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Kosten",
+            "weight": 0.838675511618425
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Innovation",
+            "weight": 0.5616539592529953
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Tourismus",
+            "weight": 0.8686411745290901
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Technologie",
+            "weight": 0.9830850622196521
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Bildung",
+            "weight": 0.6819698375520545
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Dienstleistungen",
+            "weight": 0.7193989968567084
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Wirtschaft",
+            "weight": 0.4361224350758291
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Verkehr",
+            "weight": 0.5131309154231762
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Umwelt",
+            "weight": 0.440766309335859
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Freizeit",
+            "weight": 0.4451861749320447
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Kultur",
+            "weight": 0.7424167339281394
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Wohnen",
+            "weight": 0.4255588260169157
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Wirtschaftslage",
+            "weight": 0.9913331578649535
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Innovationen",
+            "weight": 0.3986145376545017
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Digitalisierung",
+            "weight": 0.6006512860907802
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Konsumausgaben",
+            "target": "Finanzen",
+            "weight": 0.7131420813191991
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Einkommen",
+            "weight": 0.9925691504151845
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Kaufkraft",
+            "weight": 0.7374599121116402
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Wettbewerb",
+            "weight": 0.8266848064815745
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Nachfrage",
+            "weight": 0.2704684911710017
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Nachhaltigkeit",
+            "weight": 0.2744368670505124
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Kosten",
+            "weight": 0.9493538511376175
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Innovation",
+            "weight": 0.6535142747139839
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Tourismus",
+            "weight": 0.8529045513078259
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Bildung",
+            "weight": 0.6368836536599983
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Dienstleistungen",
+            "weight": 0.7677595739912663
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Wirtschaft",
+            "weight": 0.4486585949028347
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Verkehr",
+            "weight": 0.41695264282996863
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Umwelt",
+            "weight": 0.45692109728964175
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Freizeit",
+            "weight": 0.5494735968865441
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Kultur",
+            "weight": 0.7226359951652637
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Wohnen",
+            "weight": 0.39480483477776707
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Soziales",
+            "weight": 0.9886071004275435
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Konsumausgaben",
+            "weight": 0.670157102558555
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Innovationen",
+            "weight": 0.5612218572519396
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Digitalisierung",
+            "weight": 0.6223001191922213
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Wirtschaftslage",
+            "target": "Finanzen",
+            "weight": 0.7490597862950945
+        },
+        {
+            "source": "Innovationen",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovationen",
+            "target": "Kaufkraft",
+            "weight": 0.8652415724727924
+        },
+        {
+            "source": "Innovationen",
+            "target": "Wettbewerb",
+            "weight": 0.861179709771033
+        },
+        {
+            "source": "Innovationen",
+            "target": "Nachfrage",
+            "weight": 0.36139011705497204
+        },
+        {
+            "source": "Innovationen",
+            "target": "Nachhaltigkeit",
+            "weight": 0.35102076193948084
+        },
+        {
+            "source": "Innovationen",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovationen",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovationen",
+            "target": "Kosten",
+            "weight": 0.9870602983381439
+        },
+        {
+            "source": "Innovationen",
+            "target": "Innovation",
+            "weight": 0.6758187476979954
+        },
+        {
+            "source": "Innovationen",
+            "target": "Tourismus",
+            "weight": 0.9068212979287464
+        },
+        {
+            "source": "Innovationen",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovationen",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovationen",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovationen",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovationen",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovationen",
+            "target": "Bildung",
+            "weight": 0.7503334046850985
+        },
+        {
+            "source": "Innovationen",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovationen",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovationen",
+            "target": "Dienstleistungen",
+            "weight": 0.8572521952844612
+        },
+        {
+            "source": "Innovationen",
+            "target": "Wirtschaft",
+            "weight": 0.4908462206089689
+        },
+        {
+            "source": "Innovationen",
+            "target": "Verkehr",
+            "weight": 0.5755302662045472
+        },
+        {
+            "source": "Innovationen",
+            "target": "Umwelt",
+            "weight": 0.38973301693577683
+        },
+        {
+            "source": "Innovationen",
+            "target": "Freizeit",
+            "weight": 0.4446896645039375
+        },
+        {
+            "source": "Innovationen",
+            "target": "Kultur",
+            "weight": 0.6736323382687069
+        },
+        {
+            "source": "Innovationen",
+            "target": "Wohnen",
+            "weight": 0.42001336392721167
+        },
+        {
+            "source": "Innovationen",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovationen",
+            "target": "Konsumausgaben",
+            "weight": 0.6174951854419602
+        },
+        {
+            "source": "Innovationen",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovationen",
+            "target": "Digitalisierung",
+            "weight": 0.7146811907191583
+        },
+        {
+            "source": "Innovationen",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Innovationen",
+            "target": "Finanzen",
+            "weight": 0.8866701994409971
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Einkommen",
+            "weight": 0.9883196742454202
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Kaufkraft",
+            "weight": 0.8120375862022325
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Wettbewerb",
+            "weight": 0.7889866833319809
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Nachfrage",
+            "weight": 0.34516116942955105
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Nachhaltigkeit",
+            "weight": 0.3660724731310696
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Infrastruktur",
+            "weight": 0.9832758823928877
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Kosten",
+            "weight": 0.923938318251659
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Innovation",
+            "weight": 0.6790339564100015
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Tourismus",
+            "weight": 0.9735306327802199
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Technologie",
+            "weight": 0.9455387344653333
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Bildung",
+            "weight": 0.6915073016236746
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Dienstleistungen",
+            "weight": 0.8456632855414682
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Wirtschaft",
+            "weight": 0.40453328672237926
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Verkehr",
+            "weight": 0.4171775353858377
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Umwelt",
+            "weight": 0.4753762610796804
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Freizeit",
+            "weight": 0.4908320973145455
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Kultur",
+            "weight": 0.6648465149140369
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Wohnen",
+            "weight": 0.39496905863010207
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Konsumausgaben",
+            "weight": 0.634320875781195
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Innovationen",
+            "weight": 0.4911725938172213
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Digitalisierung",
+            "target": "Finanzen",
+            "weight": 0.826963800595349
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Kaufkraft",
+            "weight": 0.7209720696576613
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Wettbewerb",
+            "weight": 0.823880270147376
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Nachfrage",
+            "weight": 0.36783900285687365
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Nachhaltigkeit",
+            "weight": 0.36747340962693853
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Kosten",
+            "weight": 0.8947445482107014
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Innovation",
+            "weight": 0.7105414228855436
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Tourismus",
+            "weight": 0.9664881916598438
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Technologie",
+            "weight": 0.9435882109890821
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Bildung",
+            "weight": 0.583738419347369
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Dienstleistungen",
+            "weight": 0.7410034273159175
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Wirtschaft",
+            "weight": 0.41660649166974983
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Verkehr",
+            "weight": 0.4417499348497371
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Umwelt",
+            "weight": 0.43439642222193625
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Freizeit",
+            "weight": 0.4674494187166466
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Kultur",
+            "weight": 0.7787062945974772
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Wohnen",
+            "weight": 0.3974517444094056
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Konsumausgaben",
+            "weight": 0.6255151723700639
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Innovationen",
+            "weight": 0.4432506369981675
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Digitalisierung",
+            "weight": 0.7317670136104875
+        },
+        {
+            "source": "Immobilienmarkt",
+            "target": "Finanzen",
+            "weight": 0.8627461838557279
+        },
+        {
+            "source": "Finanzen",
+            "target": "Einkommen",
+            "weight": 1.0
+        },
+        {
+            "source": "Finanzen",
+            "target": "Kaufkraft",
+            "weight": 0.9516897254407102
+        },
+        {
+            "source": "Finanzen",
+            "target": "Wettbewerb",
+            "weight": 0.9804635735832476
+        },
+        {
+            "source": "Finanzen",
+            "target": "Nachfrage",
+            "weight": 0.350393721881432
+        },
+        {
+            "source": "Finanzen",
+            "target": "Nachhaltigkeit",
+            "weight": 0.4352393145128709
+        },
+        {
+            "source": "Finanzen",
+            "target": "Infrastruktur",
+            "weight": 1.0
+        },
+        {
+            "source": "Finanzen",
+            "target": "Arbeitsmarkt",
+            "weight": 1.0
+        },
+        {
+            "source": "Finanzen",
+            "target": "Kosten",
+            "weight": 0.9963362736098652
+        },
+        {
+            "source": "Finanzen",
+            "target": "Innovation",
+            "weight": 0.7161928359853179
+        },
+        {
+            "source": "Finanzen",
+            "target": "Tourismus",
+            "weight": 0.9938399545071774
+        },
+        {
+            "source": "Finanzen",
+            "target": "Lebensqualit\u00e4t",
+            "weight": 1.0
+        },
+        {
+            "source": "Finanzen",
+            "target": "Steuern",
+            "weight": 1.0
+        },
+        {
+            "source": "Finanzen",
+            "target": "Technologie",
+            "weight": 1.0
+        },
+        {
+            "source": "Finanzen",
+            "target": "Demografie",
+            "weight": 1.0
+        },
+        {
+            "source": "Finanzen",
+            "target": "Energie",
+            "weight": 1.0
+        },
+        {
+            "source": "Finanzen",
+            "target": "Bildung",
+            "weight": 0.8572084841762951
+        },
+        {
+            "source": "Finanzen",
+            "target": "Sicherheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Finanzen",
+            "target": "Gesundheit",
+            "weight": 1.0
+        },
+        {
+            "source": "Finanzen",
+            "target": "Dienstleistungen",
+            "weight": 0.8969395461674431
+        },
+        {
+            "source": "Finanzen",
+            "target": "Wirtschaft",
+            "weight": 0.6301372386662172
+        },
+        {
+            "source": "Finanzen",
+            "target": "Verkehr",
+            "weight": 0.700826005169309
+        },
+        {
+            "source": "Finanzen",
+            "target": "Umwelt",
+            "weight": 0.5589081322087638
+        },
+        {
+            "source": "Finanzen",
+            "target": "Freizeit",
+            "weight": 0.6185433018619341
+        },
+        {
+            "source": "Finanzen",
+            "target": "Kultur",
+            "weight": 0.9355917526132786
+        },
+        {
+            "source": "Finanzen",
+            "target": "Wohnen",
+            "weight": 0.4632578939704203
+        },
+        {
+            "source": "Finanzen",
+            "target": "Soziales",
+            "weight": 1.0
+        },
+        {
+            "source": "Finanzen",
+            "target": "Konsumausgaben",
+            "weight": 0.8353512519018269
+        },
+        {
+            "source": "Finanzen",
+            "target": "Wirtschaftslage",
+            "weight": 1.0
+        },
+        {
+            "source": "Finanzen",
+            "target": "Innovationen",
+            "weight": 0.5266090775162109
+        },
+        {
+            "source": "Finanzen",
+            "target": "Digitalisierung",
+            "weight": 0.8639592577295947
+        },
+        {
+            "source": "Finanzen",
+            "target": "Immobilienmarkt",
+            "weight": 1.0
+        }
+    ]
+}

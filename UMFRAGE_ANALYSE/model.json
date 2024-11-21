@@ -1,0 +1,186 @@
+{
+    "nodes": [
+        {
+            "label": "Produktvorlieben",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Marktpr\u00e4ferenzen",
+            "activation": 0.5788398937779121,
+            "activation_history": []
+        },
+        {
+            "label": "Konsumverhalten",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Online-Verhalten",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Standortpr\u00e4ferenzen",
+            "activation": 0.0,
+            "activation_history": []
+        },
+        {
+            "label": "Nachhaltigkeit",
+            "activation": 0.0,
+            "activation_history": []
+        }
+    ],
+    "connections": [
+        {
+            "source": "Produktvorlieben",
+            "target": "Marktpr\u00e4ferenzen",
+            "weight": 0.6611141147787092
+        },
+        {
+            "source": "Produktvorlieben",
+            "target": "Konsumverhalten",
+            "weight": 0.4466855622288854
+        },
+        {
+            "source": "Produktvorlieben",
+            "target": "Online-Verhalten",
+            "weight": 0.6992810694730169
+        },
+        {
+            "source": "Produktvorlieben",
+            "target": "Standortpr\u00e4ferenzen",
+            "weight": 1.0
+        },
+        {
+            "source": "Produktvorlieben",
+            "target": "Nachhaltigkeit",
+            "weight": 0.5316177850158115
+        },
+        {
+            "source": "Marktpr\u00e4ferenzen",
+            "target": "Produktvorlieben",
+            "weight": 1.0
+        },
+        {
+            "source": "Marktpr\u00e4ferenzen",
+            "target": "Konsumverhalten",
+            "weight": 0.4971603839552578
+        },
+        {
+            "source": "Marktpr\u00e4ferenzen",
+            "target": "Online-Verhalten",
+            "weight": 0.6992810694730169
+        },
+        {
+            "source": "Marktpr\u00e4ferenzen",
+            "target": "Standortpr\u00e4ferenzen",
+            "weight": 1.0
+        },
+        {
+            "source": "Marktpr\u00e4ferenzen",
+            "target": "Nachhaltigkeit",
+            "weight": 0.582092606742184
+        },
+        {
+            "source": "Konsumverhalten",
+            "target": "Produktvorlieben",
+            "weight": 1.0
+        },
+        {
+            "source": "Konsumverhalten",
+            "target": "Marktpr\u00e4ferenzen",
+            "weight": 0.6919814596024189
+        },
+        {
+            "source": "Konsumverhalten",
+            "target": "Online-Verhalten",
+            "weight": 0.7266719857914474
+        },
+        {
+            "source": "Konsumverhalten",
+            "target": "Standortpr\u00e4ferenzen",
+            "weight": 1.0
+        },
+        {
+            "source": "Konsumverhalten",
+            "target": "Nachhaltigkeit",
+            "weight": 0.5970461499648667
+        },
+        {
+            "source": "Online-Verhalten",
+            "target": "Produktvorlieben",
+            "weight": 1.0
+        },
+        {
+            "source": "Online-Verhalten",
+            "target": "Marktpr\u00e4ferenzen",
+            "weight": 0.8861067578693548
+        },
+        {
+            "source": "Online-Verhalten",
+            "target": "Konsumverhalten",
+            "weight": 0.7740202130751435
+        },
+        {
+            "source": "Online-Verhalten",
+            "target": "Standortpr\u00e4ferenzen",
+            "weight": 1.0
+        },
+        {
+            "source": "Online-Verhalten",
+            "target": "Nachhaltigkeit",
+            "weight": 0.8573643800466687
+        },
+        {
+            "source": "Standortpr\u00e4ferenzen",
+            "target": "Produktvorlieben",
+            "weight": 1.0
+        },
+        {
+            "source": "Standortpr\u00e4ferenzen",
+            "target": "Marktpr\u00e4ferenzen",
+            "weight": 0.8030503029920508
+        },
+        {
+            "source": "Standortpr\u00e4ferenzen",
+            "target": "Konsumverhalten",
+            "weight": 0.6544420256205903
+        },
+        {
+            "source": "Standortpr\u00e4ferenzen",
+            "target": "Online-Verhalten",
+            "weight": 0.8252317230233146
+        },
+        {
+            "source": "Standortpr\u00e4ferenzen",
+            "target": "Nachhaltigkeit",
+            "weight": 0.7393742484075165
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Produktvorlieben",
+            "weight": 1.0
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Marktpr\u00e4ferenzen",
+            "weight": 0.8065834204446459
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Konsumverhalten",
+            "weight": 0.6260815579364714
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Online-Verhalten",
+            "weight": 0.8447503751389539
+        },
+        {
+            "source": "Nachhaltigkeit",
+            "target": "Standortpr\u00e4ferenzen",
+            "weight": 1.0
+        }
+    ]
+}
